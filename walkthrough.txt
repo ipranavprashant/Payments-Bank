@@ -1,0 +1,7 @@
+creating a bank_webhook_handler (aka bank_server)
+cd apps
+mkdir bank_server
+cd bank_server
+npm init -y
+npx tsc --init
+npm i esbuild express @types/express
